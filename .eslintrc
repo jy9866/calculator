@@ -57,7 +57,6 @@
     "import/default": 0,
     "import/named": 0,
     "import/namespace": 0,
-    "import/no-duplicates": 2,
     "import/no-unresolved": [2, {"commonjs": true, "amd": true}],
     "import/no-named-as-default": 0,
     "react/jsx-boolean-value": 2,
