@@ -1,3 +1,6 @@
+env:
+  global:
+    - CC_TEST_REPORTER_ID=eaa7f162075829b62e1436166746c6bc05741c711f1e0785a57233346532078c
 sudo: false
 language: node_js
 node_js:
@@ -9,7 +12,6 @@ cache:
 
 install:
   - npm install
-  - travis_wait 30 mvn install
 
 before_script:
 - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
