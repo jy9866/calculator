@@ -18,6 +18,7 @@
     "dev:no-debug": "npm run dev -- --no_debug",
     "test": "better-npm-run test",
     "test:dev": "npm run test -- --watch",
+    "test:coverage":"npm run test -- --coverage",
     "deploy": "better-npm-run deploy"
   },
   "betterScripts": {
