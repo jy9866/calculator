@@ -1,7 +1,7 @@
 env:
   global:
     - CC_TEST_REPORTER_ID=eaa7f162075829b62e1436166746c6bc05741c711f1e0785a57233346532078c
-sudo: false
+sudo: true
 language: node_js
 node_js:
   - "7.0"
